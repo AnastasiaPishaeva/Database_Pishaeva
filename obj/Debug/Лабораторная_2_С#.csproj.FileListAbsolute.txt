@@ -1,0 +1,10 @@
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\bin\Debug\Лабораторная_2_С#.exe.config
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\bin\Debug\Лабораторная_2_С#.exe
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\bin\Debug\Лабораторная_2_С#.pdb
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С#.csproj.AssemblyReference.cache
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С_.Form1.resources
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С_.Properties.Resources.resources
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С#.csproj.GenerateResource.cache
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С#.csproj.CoreCompileInputs.cache
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С#.exe
+C:\Users\Nastya\ВШЭ\БД\Лабораторная_2_С#\obj\Debug\Лабораторная_2_С#.pdb
