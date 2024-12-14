@@ -644,15 +644,6 @@ namespace Лабораторная_2_С_
                 using (var file = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None))
                 {
                     long position = indexTable[id];
-                    file.Seek(position, SeekOrigin.Begin);
-                    // Можно либо "обнулить" данные на месте, либо переопределить запись как удаленную.
-                    // Здесь очищаем поля как удаление
-                    using (var writer = new BinaryWriter(file, Encoding.Default, true))
-                    {
-                        writer.Write(-1); // Помечаем ID как удаленный, например, ID = -1.
-                    }
-
-                    indexTable.Remove(id);
                     BookRecord? record = SearchRecordByPosition(file, position);
                     if (record.HasValue)
                     {
@@ -693,6 +684,12 @@ namespace Лабораторная_2_С_
                             }
                         }
                     }
+                    file.Seek(position, SeekOrigin.Begin);
+                    using (var writer = new BinaryWriter(file, Encoding.Default, true))
+                    {
+                        writer.Write(-1); // Помечаем ID как удаленный, например, ID = -1.
+                    }
+                    indexTable.Remove(id);
                     SaveAll();
                 }
             }
